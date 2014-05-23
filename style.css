@@ -1,0 +1,85 @@
+/* general */
+@import url("bootstrap/css/bootstrap.css");
+
+a { color: white; }
+body { background: url("img/bg.png"); }
+.hidden { opacity: 0.001; }
+.sub-logo { color: white; }
+
+
+@font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kaushan Script'), local('KaushanScript-Regular'), url(fonts/font.woff) format('woff');
+}
+
+.logo {
+    font-family: "Kaushan Script", cursive;
+    color: white;
+    text-shadow: 0 0 15px black;
+    margin: 15px;
+    font-size: 48px;
+}
+
+/* background */
+.bg-sky {
+    background: -moz-linear-gradient(top, rgb(0, 184, 255), rgb(136, 250, 255));
+    background: -webkit-linear-gradient(top, rgb(0, 184, 255), rgb(136, 250, 255));
+    position: absolute;
+    width: 720px;
+    height: 340px;
+    margin-left: 332px;
+    margin-top: 25px;
+    border-radius: 2px;
+}
+
+.bg-green {
+    background: -webkit-linear-gradient(top, rgb(0, 202, 33), rgb(0, 117, 23));
+    background: -moz-linear-gradient(top, rgb(0, 202, 33), rgb(0, 117, 23));
+    position: absolute;
+    width: 720px;
+    height: 117px;
+    margin-left: 332px;
+    margin-top: 250px;
+    border-radius: 2px;
+    z-index: 1000;
+}
+
+.bordered {
+    border: 3px solid rgb(0, 59, 122);
+    box-shadow: 0 0 19px black;
+}
+
+/* sun */
+.sun {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: -webkit-linear-gradient(top, rgb(255, 255, 181), rgb(255, 255, 181));
+    background: -moz-linear-gradient(top, rgb(255, 255, 181), rgb(255, 255, 181));
+    position: absolute;
+    margin: 40px 10px 10px 350px;
+    box-shadow: 0 0 15px white;
+}
+
+.aurora {
+    margin: 14px 0 0 -38px;
+    position: absolute;
+    z-index: 0;
+    display: none;
+    width: 432px;
+    height: 241px;
+}
+
+.star {
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    background: white;
+    left: 387px;
+    top: 234px;
+    border-radius: 100%;
+    box-shadow: 0 0 11px white;
+    display: none;
+}
