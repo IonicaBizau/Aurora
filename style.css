@@ -14,6 +14,13 @@ body { background: url("img/bg.png"); }
     src: local('Kaushan Script'), local('KaushanScript-Regular'), url(fonts/font.woff) format('woff');
 }
 
+div.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -268px 0 0 -695px;
+}
+
 .logo {
     font-family: "Kaushan Script", cursive;
     color: white;
@@ -64,12 +71,13 @@ body { background: url("img/bg.png"); }
 }
 
 .aurora {
-    margin: 14px 0 0 -38px;
     position: absolute;
     z-index: 0;
     display: none;
-    width: 432px;
-    height: 241px;
+    width: 382px;
+    height: 240px;
+    left: 680px;
+    top: 13px;
 }
 
 .star {
