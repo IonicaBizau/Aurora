@@ -15,7 +15,7 @@ body { background: url("img/bg.png"); }
 }
 
 div.main {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     margin: -268px 0 0 -695px;
@@ -33,7 +33,7 @@ div.main {
 .bg-sky {
     background: -moz-linear-gradient(top, rgb(0, 184, 255), rgb(136, 250, 255));
     background: -webkit-linear-gradient(top, rgb(0, 184, 255), rgb(136, 250, 255));
-    position: absolute;
+    position: fixed;
     width: 720px;
     height: 340px;
     margin-left: 332px;
@@ -44,7 +44,7 @@ div.main {
 .bg-green {
     background: -webkit-linear-gradient(top, rgb(0, 202, 33), rgb(0, 117, 23));
     background: -moz-linear-gradient(top, rgb(0, 202, 33), rgb(0, 117, 23));
-    position: absolute;
+    position: fixed;
     width: 720px;
     height: 117px;
     margin-left: 332px;
@@ -65,25 +65,24 @@ div.main {
     border-radius: 100%;
     background: -webkit-linear-gradient(top, rgb(255, 255, 181), rgb(255, 255, 181));
     background: -moz-linear-gradient(top, rgb(255, 255, 181), rgb(255, 255, 181));
-    position: absolute;
+    position: fixed;
     margin: 40px 10px 10px 350px;
     box-shadow: 0 0 15px white;
 }
 
 .aurora {
-    position: absolute;
+    position: fixed;
     z-index: 0;
     display: none;
     width: 382px;
     height: 240px;
-    left: 680px;
-    top: 13px;
+    margin: 15px 0 0 334px;
 }
 
 .star {
     width: 6px;
     height: 6px;
-    position: absolute;
+    position: fixed;
     background: white;
     left: 387px;
     top: 234px;
