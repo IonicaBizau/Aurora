@@ -1,0 +1,38 @@
+{
+  "name": "aurora-borealis-simulation-app",
+  "version": "1.0.0",
+  "description": "A sunset and Aurora simulation.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/Aurora.git"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/Aurora/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/Aurora#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "blah": {
+    "title": "Sunset & Aurora",
+    "description": "An aurora is a natural light display in the sky (from the Latin word aurora, _sunrise_ or the Roman goddess of dawn), especially in the high latitude (Arctic and Antarctic) regions, caused by the collision of solar wind and magnetospheric charged particles with the high altitude atmosphere (thermosphere). Most auroras occur in a band known as the auroral zone, which is typically 3° to 6° wide in latitude and observed at 10° to 20° from the geomagnetic poles at all local times (or longitudes), but often most vividly around the spring and autumn equinoxes. The charged particles and solar wind are directed into the atmosphere by the Earth's magnetosphere.  A geomagnetic storm expands the auroral zone to lower latitudes."
+  }
+}
