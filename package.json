@@ -1,6 +1,6 @@
 {
   "name": "aurora-borealis-simulation-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sunset and Aurora simulation.",
   "main": "lib/index.js",
   "scripts": {
@@ -27,6 +27,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
